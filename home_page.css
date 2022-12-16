@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.space{
+    width:9.5%;
+    float: left;
+    border: 1px solid transparent;
+}
+.main{
+    width: 81%;
+    float: left;
+    border: 1px solid transparent;
+}
+.head{
+    width: 100%;
+    display: flex;
+    background-color: #ff6100;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+}
+.dostavka{
+    padding-left: 90px;
+    padding-top: 5px;
+    font-family: Bradley Hand, cursive;
+}
+.voiti{
+    border:1px solid white;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    float: right;
+}
+nav{
+    display: flex;
+    border-top: 3px solid black;
+    background-color: #ff6100;
+    height: 50px;
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Bradley Hand, cursive;
+}
+.k{
+    margin-left: 50px;
+}
+a:hover{
+    color: white ;
+}
+.s{
+    margin-left: 50px;
+    border:1px solid  white;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 50px;
+    color: black ;
+    width: 60px;
+    height: 30px;
+}
+.aksia{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.sale{
+    margin: 3%;
+    width: 41.5%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 70%) 0px 0px 12px -4px;
+}
+.text-aksia{
+    padding-left: 10px;
+}
+.cards{
+    width: 25%;
+    margin: 3%;
+}
+.pizza{
+    width: 100%;
+    height: 207px;
+}
+.btn{
+    float: right;
+    background-color: #ff6100;
+    color: white;
+    border: 1px solid #ff6100;
+    border-radius: 50px;
+    height: 40px;
+    font-size: 16px;
+}
+.btn:hover{
+    float: right;
+    background-color: #ff984c;
+    border: 1px solid #ff984c;
+    color: white;
+}
