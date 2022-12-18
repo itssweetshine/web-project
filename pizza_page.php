@@ -4,32 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pizza</title>
-    <link rel="icon" type="text/css" href="icon.png">
+    <link rel="icon" type="text/css" href="assets/icon.png">
     <link rel="stylesheet" href="home_page.css">
 </head>
 <body>
-<div class="head">
-    <div>
-        <img class="logo" src="logo.png">
-    </div>
-    <div class="dostavka">
-        Доставка Пиццы  <span style="color: white;"> Алматы </span><br>31 мин|4.78<img style="width:20px;padding-top: 1px; " src="star.png">
-        <button type="button" value="Войти" class="voiti">Войти</button>
-    </div>
-</div>
 
-<div>
-    <nav>
-        <ul>
-            <li><a class="k" href="">Пицца</a></li>
-            <li><a class="k" href="">Комбо</a></li>
-            <li><a class="k" href="">Закуски</a></li>
-            <li><a class="k" href="">Десерты</a></li>
-            <li><a class="k" href="">Напитки</a></li>
-            <li><a class="s" href="">Корзина</a></li>
-        </ul>
-    </nav>
-</div>
+<?php include("app/include/header.php"); ?>
+
 <div class="space"></div>
 <div class="main">
 <br><h1>Пиццы</h1>
@@ -221,12 +202,11 @@
             <br><div>2800 тг.<button class="btn">В корзину</button></div>
         </div>
     </div>
-
-<div class="head">
-    <div
-</div>
-
 </div>
 <div class="space"></div>
+
+
+<?php include("app/include/header.php"); ?>
+
 </body>
 </html>
