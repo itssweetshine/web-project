@@ -75,6 +75,86 @@
             </div>
         </div>
     </div>
+    <div></div>
+    <div></div>
+        <div class="main">
+            <span class="desc"><p class="slovo-napitki">Новогодние скидки и хиты сезона</p></span> <img class="photo-skidki" src="Skidki.jpg">
+        </div>
+    <div></div>
+    <div></div>
+    <div class="main">
+        <div style="display: flex;">
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="https://dodopizza-a.akamaihd.net/static/Img/Products/89211781fc6f47c1b74b5ca72569e236_366x366.webp">
+                <div class="slovo-v-napitkah">Индейка с клюквенным соусом</div>
+                <br><div><b>2700 тг.</b><button class="btn">В корзину</button></div>
+            </div>
+
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="https://dodopizza-a.akamaihd.net/static/Img/Products/bcfeb8fe346c48c2afb8ad5d7e30c73e_366x366.webp">
+                <div class="slovo-v-napitkah">Песто</div>
+                <br><br><div><b>2800 тг.</b><button class="btn">В корзину</button></div>
+            </div>
+
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="	https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/149c1b9a1579493f849dc0b31ae292bc_366x366.webp">
+                <div class="slovo-v-napitkah">Новогоднее комбо</div>
+                <br><div><b>5500тг<br><s>6100тг</s></b><button class="btn">В корзину</button></div>
+            </div>
+
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="	https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/7eb852e6bc654f37ace50da4f733537e_366x366.webp">
+                <div class="slovo-v-napitkah">Новогоднее комбо для компании</div>
+                <div><b>7500тг<br><s>8300тг</s></b><button class="btn">В корзину</button></div>
+            </div>
+        </div>
+
+        <div style="display: flex;">
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/1af2ee0b8058445396f4672a0aab5998_366x366.webp">
+                <div class="slovo-v-napitkah">3 пиццы от 4900 тг</div>
+                <br><div><b>4900тг<br><s>5800тг</s></b><button class="btn">В корзину</button></div>
+            </div>
+
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/f382490b2d234067b9ba70a768d2f3fd_366x366.webp">
+                <div class="slovo-v-napitkah">4 Закуски</div>
+                <br><div><b>4000тг<br><s>5000тг</s></b><button class="btn">В корзину</button></div>
+            </div>
+
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/18c150eb22a64c3ea62c8ff18e6c3c4b_366x366.webp">
+                <div class="slovo-v-napitkah">Два Стартера</div>
+                <br><div><b>2500тг<br><s>2700тг</s></b><button class="btn">В корзину</button></div>
+            </div>
+
+            <div class="kartochka-napitok">
+                <img class="photo-napitkov" src="	https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/a4b15fe102854701837087d75cd06fa2_366x366.webp">
+                <div class="slovo-v-napitkah">2 кофе: Латте и Капучино</div>
+                <div><b>1700тг<br><s>2000тг</s></b><button class="btn">В корзину</button></div>
+            </div>
+        </div>
+    </div>
+<div></div>
+    <div></div>
+        <div class="main">
+            <p class="slovo-napitki">Доставка и оплата</p>
+            <div style="display: flex;">
+                <div class="kartochka-dostavki">
+                    <div class="orange-soz">58 МИНУТ ИЛИ ПИЦЦА БЕСПЛАТНО</div>
+                    <p class="text-of-orange-soz">Если мы не успеем доставить любые продукты, кроме сувенирной продукции и соусов, в течение 60 минут, курьер подарит вам сертификат на большую пиццу.</p>
+                </div>
+
+                <div class="kartochka-dostavki">
+                    <div class="orange-soz">4 320 ТГ.</div>
+                    <p class="text-of-orange-soz">Минимальная сумма доставки</p>
+
+                    <div class="orange-soz">30 000 ТГ.</div>
+                    <p class="text-of-orange-soz">Максимальная сумма при оплате наличными<br><br>Изображения продуктов могут отличаться от продуктов в заказе.</p>
+                </div>
+            </div>
+        </div>
+    <div></div>
 </div>
 
 
