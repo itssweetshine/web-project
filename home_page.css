@@ -2,51 +2,101 @@
     box-sizing: border-box;
     margin: 0;
 }
-.space{
-    width:9.5%;
-    float: left;
-    border: 1px solid transparent;
+.grid-container {
+    display: grid;
+    grid-template-columns: 7% auto 7%;
+    gap: 0.625rem;
+    padding:3%;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.625rem;
+    padding:3%;
 }
 .main{
-    width: 81%;
-    float: left;
-    border: 1px solid transparent;
+    width: 100%;
+    align-content: center;
+    border: 0.0625rem solid transparent;
+}
+.end{
+    width: 86%;
+    align-content: center;
+    border: 0.0625rem solid transparent;
+    height: 3.75rem;
+}
+.error::after{
+    background-color: hsl(10, 60%, 50%);
+    color: papayawhip;
+    font-size: 1rem;
+    line-height: 1.8;
+    width: 350px;
+    padding-left: 1rem;
+    position:absolute;
+    right: 0;
+    content: attr(err);
 }
 .head{
     width: 100%;
     display: flex;
-    background-color: #ff6100;
-    padding-left: 60px;
-    padding-right: 30px;
+    background-color: #df0000;
+    padding-left: 3.75rem;
+    position: fixed;
+    z-index: 10;
 }
 .logo{
-    width: 200px;
-    height: 80px;
+    width: 12.5rem;
+    height: 5rem;
 }
 .dostavka{
-    padding-left: 90px;
-    padding-top: 5px;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    padding-top: 0.3125rem;
     font-family: Bradley Hand, cursive;
 }
-.voiti{
-    border:1px solid white;
-    border-radius: 10px;
-    width: 70px;
-    height: 30px;
+.basket{
+    border: 0.1875rem solid white;
+    color: white;
+    background-color: #df0000;
+    border-radius: 0.625rem;
+    width: 5.625rem;
+    height: 2.1875rem;
     float: right;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-left: 3.75rem;
+    text-align: center;
+}
+.anketa{
+    border:0.18rem solid white;
+    color: white;
+    background-color: #df0000;
+    border-radius: 0.625rem;
+    height: 2.5rem;
+    float: right;
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+}
+.basket:hover{
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
+}
+.anketa:hover{
+    opacity: 0.5;
+    color: white;
+    cursor: pointer;
 }
 nav{
     display: flex;
-    border-top: 3px solid black;
-    background-color: #ff6100;
-    height: 50px;
-    padding-top: 10px;
+    background-color: #df0000;
+    height: 3.125rem;
+    padding-top: 1.5625rem;
 }
 ul{
     display: flex;
     width: 100%;
     text-align: center;
-    margin-left: 150px;
 }
 li{
     list-style-type: none;
@@ -56,56 +106,209 @@ a{
     color: black;
     font-family: Bradley Hand, cursive;
 }
-.k{
-    margin-left: 50px;
+.category{
+    margin-left: 3.125rem;
 }
 a:hover{
-    color: white ;
-}
-.s{
-    margin-left: 50px;
-    border:1px solid  white;
-    background-color: white;
-    border-radius: 8px;
-    margin-left: 50px;
-    color: black ;
-    width: 60px;
-    height: 30px;
+    color: white;
+    cursor: pointer;
 }
 .aksia{
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 .sale{
     margin: 3%;
-    width: 41.5%;
-    height: 350px;
-    border-radius: 10px;
-    box-shadow: rgb(0 0 0 / 70%) 0px 0px 12px -4px;
+    width: 27%;
+    height: 21.875rem;
+    border-radius: 0.625rem;
+    box-shadow: rgb(0 0 0 / 70%) 0rem 0rem 0.75rem -0.25rem;
 }
 .text-aksia{
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 .cards{
     width: 25%;
     margin: 3%;
+    overflow: hidden;
 }
-.pizza{
+.form{
     width: 100%;
-    height: 207px;
+}
+.products{
+    width: 100%;
+    height: 12.9375rem;
 }
 .btn{
     float: right;
-    background-color: #ff6100;
+    background-color: #df0000;
     color: white;
-    border: 1px solid #ff6100;
-    border-radius: 50px;
-    height: 40px;
-    font-size: 16px;
+    border: 0.0625rem solid #df0000;
+    border-radius: 3.125rem;
+    height: 2.5rem;
+    font-size: 1rem;
 }
 .btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.anonym{
     float: right;
-    background-color: #ff984c;
-    border: 1px solid #ff984c;
+    font-size: 1.5625rem;
     color: white;
+}
+.mini-text{
+    color: #5C6370;
+    height: 100px
+}
+.slovo-zakaz{
+    margin: 2.5rem 0 0 0.625rem;
+}
+.chasto-zakaz{
+    display: flex;
+    margin:3%;
+}
+.box-of-chasto-zakaz{
+    display: flex;
+    width:24%;
+    box-shadow: rgb(0 0 0 / 60%) 0px 0px 0.75rem -0.25rem;
+    border-top-right-radius: 0.625rem;
+    border-top-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    border-bottom-left-radius: 0.625rem;
+    margin-right: 1.875rem;
+}
+.photo-of-pizza{
+    width: 5rem;
+    padding: 0.625rem;
+}
+.indeika{
+    font-size: 13px;
+    padding: 0.5rem 0.25rem 0.125rem 0.375rem;
+    width: 150px;
+}
+.products{
+    width: 100%;
+    padding: 0.625rem;
+}
+.slova{
+    font-size: 1.25rem;
+    margin: 0.5rem 0.375rem;
+    font-weight: bold;
+}
+.cost{
+    float: left;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.products:hover{
+    padding-top: 0.875rem;
+    padding-bottom: 0.375rem;
+    cursor: pointer;
+}
+.choose{
+    float: right;
+    background-color: #df0000;
+    color: white;
+    border: 0.0625rem solid #df0000;
+    border-radius: 1.25rem;
+    width: 40%;
+    font-size: 1rem;
+    text-align: center;
+}
+.choose:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+input, label{
+    margin-top: 0.5%;
+    display: block;
+    height: 15%;
+}
+input {
+    width: 60%;
+    margin-bottom: 1.25rem;
+    padding: 0.75rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.1875rem;
+}
+label{
+    margin-top: 1.5%;
+}
+.send-form{
+    background-color: #df0000;
+    color: white;
+    border: 0.0625rem solid #df0000;
+    border-radius: 3.125rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-top: 3%;
+}
+.kartochka-dostavki{
+    width: 36%;
+    margin-right: 80px;
+    margin-bottom: 100px;
+}
+.orange-soz{
+    color: #DF0100;
+    font-size: 18px;
+    margin:5px;
+}
+.text-of-orange-soz{
+    font-size: 14px;
+    font-family: 'verdana';
+    padding: 4px 0px;
+}
+.footer{
+    width: 100%;
+    background-color:  black;
+
+}
+.place-footera{
+    margin: 0px 100px;
+    display: flex;
+    height: 220px;
+}
+.O-nas{
+    width: 350px;
+    margin-top: 30px;
+}
+.zagalovki{
+    color: #DF0100;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.Kontakti{
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.ikonka-v-kontaktah{
+    width: 18px;
+    float: left;
+}
+.row-v-kontaktah{
+    margin: 10px 1px;
+}
+.ikonka-mess{
+    width: 40px;
+    margin: 10px;
+}
+.download{
+    width: 140px;
+    height: 70px;
+}
+.kartochka-napitok{
+    width: 25%;
+    margin: 3%;
+    overflow: hidden;
+}
+.photo-napitkov{
+    width: 100%;
+    padding: 0.625rem;
+}
+.slovo-v-napitkah{
+    font-size: 20px;
+    margin: 8px 6px;
 }
