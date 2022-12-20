@@ -122,6 +122,6 @@
 
 
 <?php include("app/include/footer.php"); ?>
-
+<script src="home_page.js"></script>
 </body>
 </html>
