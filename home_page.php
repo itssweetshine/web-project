@@ -78,7 +78,7 @@
     <div></div>
     <div></div>
         <div class="main">
-            <span class="desc"><p class="slovo-napitki">Новогодние скидки и хиты сезона</p></span> <img class="photo-skidki" src="Skidki.jpg">
+            <span class="desc"><p class="slovo-napitki">Новогодние скидки и хиты сезона</p></span> <img class="photo-skidki" src="assets/Skidki.jpg">
         </div>
     <div></div>
     <div></div>
