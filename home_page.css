@@ -26,11 +26,11 @@
     height: 3.75rem;
 }
 .error::after{
-    background-color: hsl(10, 60%, 50%);
+    background-color: #87000b;
     color: papayawhip;
     font-size: 1rem;
     line-height: 1.8;
-    width: 350px;
+    width: 50%;
     padding-left: 1rem;
     position:absolute;
     right: 0;
@@ -42,7 +42,7 @@
     background-color: #df0000;
     padding-left: 3.75rem;
     position: fixed;
-    z-index: 10;
+    z-index: 1;
 }
 .logo{
     width: 12.5rem;
@@ -135,6 +135,7 @@ a:hover{
 }
 .form{
     width: 100%;
+
 }
 .products{
     width: 100%;
@@ -245,6 +246,12 @@ label{
     font-size: 1rem;
     margin-top: 3%;
 }
+.form-box{
+    padding: 1rem;
+    clear: both;
+    width: 100%;
+    position: relative;
+}
 .kartochka-dostavki{
     width: 36%;
     margin-right: 5rem;
@@ -263,15 +270,15 @@ label{
 .footer{
     width: 100%;
     background-color:  black;
-
+    display: flex;
 }
 .place-footera{
-    margin: 0 6.25rem;
+    margin: 0 6.25rem 0 6.25rem;
     display: flex;
-    height: 13.75rem;
+    height: 100%;
 }
 .O-nas{
-    width: 21,875rem;
+    width: 21.875rem;
     margin-top: 1.875rem;
 }
 .zagalovki{
@@ -304,6 +311,11 @@ label{
     margin: 3%;
     overflow: hidden;
 }
+.photo-napitkov:hover{
+    padding-top: 0.875rem;
+    padding-bottom: 0.375rem;
+    cursor: pointer;
+}
 .photo-napitkov{
     width: 100%;
     padding: 0.625rem;
@@ -311,4 +323,20 @@ label{
 .slovo-v-napitkah{
     font-size: 1.25rem;
     margin: 0.5rem 0.375rem;
+}
+.photo-of-pizza:hover{
+    padding-top: 0.875rem;
+    padding-bottom: 0.375rem;
+    cursor: pointer;
+}
+.slovo-napitki{
+    margin: 0 0.25rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.photo-skidki{
+    width: 100%;
+    height: 28rem;
+    border-radius: 0.625rem;
+
 }
