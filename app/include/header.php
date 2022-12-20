@@ -14,9 +14,10 @@
                 <li><a class="category" href="snacks.php">Закуски</a></li>
                 <li><a class="category" href="dessert_page.php">Десерты</a></li>
                 <li><a class="category" href="drinks_page.php">Напитки</a></li>
-<!--                <li><a class="category" href="basket.php"><button><img src="assets/basket.png">| 1</button></li>-->
             </ul>
         </nav>
     </div>
-    <a href="login.php" <button type="button" value="basket" class="basket">Войти</button></a>
+    <a href="basket.php" <button type="button" value="basket" class="basket">Корзина</button></a><br>
+
 </div>
+<div class="main"><br></div>
