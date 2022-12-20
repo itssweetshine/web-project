@@ -19,11 +19,11 @@
         </div>
 
         <div class="Kontakti">
-            <img class="ikonka-mess" src="whatsapp.png">
+            <img class="ikonka-mess" src="assets/whatsapp.png">
             <img class="ikonka-mess" src="https://cdn-icons-png.flaticon.com/512/174/174848.png">
             <img class="ikonka-mess" src="https://pngicon.ru/file/uploads/instagram.png">
-            <img class="download" src="appstore.png">
-            <img class="download" src="market.png">
+            <img class="download" src="assets/appstore.png">
+            <img class="download" src="assets/market.png">
         </div>
     </div>
 </div>
